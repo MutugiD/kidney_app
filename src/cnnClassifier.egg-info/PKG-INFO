@@ -1,3 +1,12 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A python package for CNN classification app
+Home-page: https://github.com/MutugiD/Kidney-Disease-Classification-Deep-Learning-Project
+Author: MutugiD
+Author-email: dennismutugi@gmail.com
+Project-URL: Bug Tracker, https://github.com/MutugiD/Kidney-Disease-Classification-Deep-Learning-Project/issues
+
 # Kidney-Disease-Classification-MLflow-DVC
 
 
