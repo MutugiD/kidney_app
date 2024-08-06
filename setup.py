@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Kidney-Disease-Classification-Deep-Learning-Project"
 AUTHOR_USER_NAME = "MutugiD"
-SRC_REPO = "cnnClassifier"
+SRC_REPO = "kidneyDiseaseClassifier"
 AUTHOR_EMAIL = "dennismutugi@gmail.com"
 
 setuptools.setup(

@@ -1,3 +1,3 @@
-from src.cnnClassifier import logger
-
-logger.info("Welcome aboard the kidney app")
+from kidneyDiseaseClassifier import logger
+from kidneyDiseaseClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from kidneyDiseaseClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
