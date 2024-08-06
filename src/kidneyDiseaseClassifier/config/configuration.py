@@ -5,10 +5,6 @@ import os
 
 class ConfigurationManager:
     """Class for managing configuration files and preparing base models.
-    
-    This class handles the loading of configuration files and parameters,
-    as well as the creation of directories necessary for preparing base models.
-    
     Attributes:
         config_filepath (str, optional): The filepath of the configuration file. Defaults to CONFIG_FILE_PATH.
         params_filepath (str, optional): The filepath of the parameters file. Defaults to PARAMS_FILE_PATH.
@@ -74,11 +70,8 @@ class ConfigurationManager:
         constructs the path to the training data directory, creates necessary directories, and packages all the parameters
         into a TrainingConfig object.
 
-        Returns:
-            TrainingConfig: An instance of TrainingConfig containing the training configuration parameters.
-
-        Raises:
-            ValueError: If any required configuration parameter is missing or invalid.
+        Returns: TrainingConfig:An instance of TrainingConfig containing the training configuration parameters.
+        Raises:ValueError: If any required configuration parameter is missing or invalid.
         """
         training = self.config.training
         prepare_base_model = self.config.prepare_base_model

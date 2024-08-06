@@ -46,3 +46,15 @@ Traceback (most recent call last):
   File "e:\mlops\kidney_app\src\kidneyDiseaseClassifier\utils\common.py", line 29, in read_yaml
     with open(path_to_yaml) as yaml_file:
 FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
+[2024-08-06 22:16:32,890: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-06 22:16:32,896: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-06 22:16:32,899: INFO: common: created directory at: artifacts]
+[2024-08-06 22:16:32,901: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-06 22:16:34,047: INFO: 2449113567: >>>>>> Data Ingestion Stage started <<<<<<]
+[2024-08-06 22:16:34,053: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-06 22:16:34,058: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-06 22:16:34,060: INFO: common: created directory at: artifacts]
+[2024-08-06 22:16:34,062: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-06 22:16:34,064: INFO: 2449113567: >>>>>> Data Ingestion Stage completed <<<<<<<
+
+x========================x]
