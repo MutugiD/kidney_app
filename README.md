@@ -116,8 +116,8 @@ dvc dag
 
 - Policy
 
-  1. Amazon EC2 Container Registry Access
-  2. Amazon EC2 Full Access
+  1. Amazon EC2 Container Registry Access - AmazonEC2ContainerRegistryFullAccess
+  2. Amazon EC2 Full Access - AmazonEC2FullAccess
 
 - Create EC2 repo to save docker image
   ```
