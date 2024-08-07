@@ -7,7 +7,7 @@
 # DVC-specific logs
 .dvc/logs
 
-#file with my keys 
+#file with DagsHub keys
 research/04_model_evaluation_mlflow.ipynb
 
 # Large data files tracked by DVC
