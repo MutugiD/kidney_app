@@ -121,7 +121,7 @@ dvc dag
 
 - Create EC2 repo to save docker image
   ```
-  save the URI: 339713042399.dkr.ecr.us-east-1.amazonaws.com/mnyama_kidney_app_52
+  save the URI: 339713042399.dkr.ecr.us-east-1.amazonaws.com/mnyama_kidney_app
   ```
 - Create Ubuntu EC2 VM
 - Install Docker on the EC2 Machine
@@ -151,13 +151,13 @@ dvc dag
 - Setup github secrets
 
   ```
-      AWS_ACCESS_KEY_ID=
+      AWS_ACCESS_KEY_ID=key
 
-      AWS_SECRET_ACCESS_KEY=
+      AWS_SECRET_ACCESS_KEY=secret
 
       AWS_REGION = us-east-1
 
-      AWS_ECR_LOGIN_URI = demo >>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+      AWS_ECR_LOGIN_URI = demo >>  339713042399.dkr.ecr.us-east-1.amazonaws.com
 
-      ECR_REPOSITORY_NAME = kidney
+      ECR_REPOSITORY_NAME = mnyama_kidney_app
   ```
