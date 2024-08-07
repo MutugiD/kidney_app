@@ -8,11 +8,12 @@
 .dvc/logs
 
 #file with DagsHub keys
-research/*
+research/
 
 # Large data files tracked by DVC
-artifacts/data_ingestion/kidney-ct-scan-image
-artifacts/training/model.h5
+#artifacts/data_ingestion/kidney-ct-scan-image
+#artifacts/training/model.h5
+artifacts/
 
 # Python-specific
 __pycache__/
