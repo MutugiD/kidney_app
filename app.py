@@ -39,4 +39,4 @@ def predict():
 
 if __name__ == "__main__":
     clientApp = ClientApp()
-    app.run(host="0.0.0.0", port=5000) #5000/8080 AWS and localhost
+    app.run(host="0.0.0.0", port=8080) 
