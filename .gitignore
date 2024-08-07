@@ -1,0 +1,18 @@
+# DVC cache directory
+.dvc/cache
+
+# DVC temporary files
+.dvc/tmp
+
+# DVC-specific logs
+.dvc/logs
+
+# Large data files tracked by DVC
+artifacts/data_ingestion/kidney-ct-scan-image
+artifacts/training/model.h5
+
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd

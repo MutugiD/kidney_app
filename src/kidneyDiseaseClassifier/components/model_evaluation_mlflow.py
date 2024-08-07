@@ -13,12 +13,7 @@ class Evaluation:
         self.config = config
 
     def valid_generator(self):
-        """
-        Prepares data generators for training and validation.
 
-        This method prepares data generators for training and validation using the specified parameters
-        in the training configuration. It applies data augmentation techniques if enabled.
-        """
         datagenerator_kwargs = dict(
             rescale=1./255,
             validation_split=0.30

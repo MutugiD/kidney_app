@@ -89,9 +89,5 @@ class PrepareBaseModel:
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
         """Saves the model to the specified path.
-
-        Args:
-            path (Path): The path where the model will be saved.
-            model (tf.keras.Model): The model to be saved.
         """
         model.save(path)
