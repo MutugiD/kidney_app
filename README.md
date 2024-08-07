@@ -121,7 +121,7 @@ dvc dag
 
 - Create EC2 repo to save docker image
   ```
-  save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+  save the URI: 339713042399.dkr.ecr.us-east-1.amazonaws.com/mnyama_kidney_app_52
   ```
 - Create Ubuntu EC2 VM
 - Install Docker on the EC2 Machine
