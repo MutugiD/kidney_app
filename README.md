@@ -35,7 +35,7 @@ Tasks
 Create a conda environment after opening the repository and activate it
 
 ```bash
-conda create -n kidney python=3.10 -y
+conda create -n kidney python=3.8.9 -y
 ```
 
 ```bash
