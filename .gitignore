@@ -8,7 +8,7 @@
 .dvc/logs
 
 #file with DagsHub keys
-research/04_model_evaluation_mlflow.ipynb
+research/*
 
 # Large data files tracked by DVC
 artifacts/data_ingestion/kidney-ct-scan-image
